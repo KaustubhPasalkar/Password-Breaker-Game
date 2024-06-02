@@ -1,10 +1,10 @@
 # Title: Password Breaker Game
-## Problem Statement
+### Problem Statement
 
-## Objective:
+### Objective:
 Develop a console-based password breaker game where users can guess a randomly selected password from a predefined list of passwords. The game should offer two modes: Easy and Hard, with different rules and feedback mechanisms.
 
-# Game Description:
+### Game Description:
 
 Welcome Message:
 
@@ -12,9 +12,9 @@ Display a welcome message to the user indicating the start of the game.
 Game Mode Selection:
 
 Prompt the user to select a game mode: Easy or Hard.
-# Gameplay Mechanics:
+### Gameplay Mechanics:
 
-# Easy Mode:
+### Easy Mode:
 The user is allowed unlimited guesses.
 After each incorrect guess, the user is informed of the number of correct letters (letters that are present in both the guessed password and the actual password).
 The game continues until the user correctly guesses the password or chooses to quit by typing "quit".
@@ -41,10 +41,10 @@ Non-Functional Requirements:
 
 The game should be user-friendly with clear prompts and messages.
 The game should handle invalid inputs gracefully (e.g., inputs other than "easy", "hard", "yes", "no").
-# Sample Password List:
+### Sample Password List:
 
 passwords = ['about', 'after', 'again', 'below', 'could',             'every', 'first', 'found', 'great', 'house', 'large', 'learn',             'never', 'other', 'place', 'plant', 'point', 'right', 'small',             'sound', 'spell', 'still', 'study', 'their', 'there', 'these',             'thing', 'think', 'three', 'water', 'where', 'which', 'world',             'would', 'write']
-# Implementation:
+### Implementation:
 The game should be implemented in Python, leveraging built-in libraries for random password selection and user input handling. The code should be structured to ensure readability and maintainability.
 
 By completing this project, users will have a fun and interactive way to test their guessing skills and improve their problem-solving abilities.
